@@ -8,7 +8,7 @@ pipeline {
 
 
     stages {
-       stage('Clean Before Clone'){s
+       stage('Clean Before Clone'){
             steps{
                 sh """rm -rf *"""
             }
